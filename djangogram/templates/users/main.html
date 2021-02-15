@@ -3,7 +3,7 @@ Here is users_main.html
 <form action = "{% url 'users:main' %}" method='post'>
     {% csrf_token %}
     <input type="input" name = "username" placeholder="please enter Id">
-    <input type="input" name = "password" placeholder="please enter PW">
+    <input type="password" name = "password" placeholder="please enter PW">
     <input type="submit" value="Log-In">
 
 </form>
